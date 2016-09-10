@@ -1,7 +1,7 @@
 {
   "name": "riot-ssr-middleware",
-  "description": "riot-ssr wrapped into Express-compatible middleware",
-  "version": "0.0.2",
+  "description": "riot-ssr wrapped into Express-compatible middleware for convenience",
+  "version": "0.0.3",
   "author": {
     "name": "Nick Gavrilov",
     "email": "artnikpro@gmail.com"
@@ -29,5 +29,7 @@
     "index.js",
     "README.md"
   ],
-  "dependencies": {}
+  "dependencies": {
+    "riot-ssr": "^1.1.3"
+  }
 }
